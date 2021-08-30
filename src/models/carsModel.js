@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const logHistorySchema = mongoose.Schema({
-	datelastchecked: Date,
+	datelastchecked: String,
 	brand: String,
 });
 
