@@ -16,9 +16,5 @@ mongoose
 		useUnifiedTopology: true,
 		useFindAndModify: false,
 	})
-	.then(() =>
-		app.listen(5000, (req, res) => {
-			console.log("Houston, connection was made.", res);
-		})
-	)
+	.then(() => app.listen(5000, (req, res) => {}))
 	.catch((err) => console.log(err));
